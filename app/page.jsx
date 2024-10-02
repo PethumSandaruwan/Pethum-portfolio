@@ -11,8 +11,8 @@ import Link from "next/link";
 
 const handleDownload = () => {
   const link = document.createElement('a');
-  link.href = '/assets/resume/THUSHARA-DILRUKSHA.pdf';  // Replace with the actual file path
-  link.download = 'THUSHARA-DILRUKSHA.pdf';  // Name of the file when downloaded
+  link.href = '/assets/resume/PethumSandaruwan.pdf';  // Replace with the actual file path
+  link.download = 'PethumSandaruwan.pdf';  // Name of the file when downloaded
   link.click();
 };
 const Home = () => {
