@@ -26,7 +26,7 @@ const Home = () => {
                              Hello I'm <br />
               <span className="text-accent">Pethum Sandaruwan</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
+            <p className="max-w-[700px] mb-9 text-white/80">
             I am passionate about both backend and frontend development,
              quickly adapting to new technologies. I thrive in dynamic environments,
               working efficiently as a team member. 
