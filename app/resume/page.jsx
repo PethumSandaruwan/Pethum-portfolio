@@ -44,9 +44,24 @@ const expirience = {
     description: "Proffessional Expirience",
     items: [
       {
-        company4: "Peoples Bank",
-        degree: "",
+        company: "Peoples Bank",
+        degree: "Trainee Intern",
         duration: "2021-2022",
+      },
+      {
+        company: "Freelance",
+        degree: "Frontend Developer",
+        duration: "2024",
+      },
+      {
+        company: "Crow.lk",
+        degree: "UI/UX Developer",
+        duration: "2024",
+      },
+      {
+        company: "Embrace Pvt. Ltd.",
+        degree: "UI/UX Developer",
+        duration: "2024",
       },
       
     ],
@@ -88,10 +103,11 @@ const Resume = () => {
       <div className="container mx-auto">
         <Tabs defaultValue="skills" className="flex flex-col xl:flex-row gap-[60px]">
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
+          <TabsTrigger value="about">About me</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="about">About me</TabsTrigger>
-            <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="expirience">Expirience</TabsTrigger>
+            <TabsTrigger value="education">Education</TabsTrigger>
+          
           </TabsList>
           
           <div className="min-h-[70vh] w-full">

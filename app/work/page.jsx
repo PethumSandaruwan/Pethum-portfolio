@@ -12,44 +12,55 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 
 const projects =[
+ 
   {num:'01',
-   category:'Frontend',
-   title:'project 1',
-   description:'For the AgroAI Automated Plantation Management website',
-   stack:[{name:"React"},{name:"Bootstrp"},{name:"shadcn/ui"},],
-   image:'/assets/work/thumb1.png',
-   Live:'',
-   github:"",
-
-  },
-  {num:'02',
-    category:'Fullstack',
-    title:'project 1',
+    category:'Fullstack Web',
+    title:'E-Market Hub | E-commerce Platform',
     description:'Taxi Booking andtrip plane website',
-    stack:[{name:"React"},{name:"Firebase"},{name:"Gemini API"},{name:"Google cloud"},],
-    image:'/assets/work/thumb2.png',
+    stack:[{name:"ReactJs"},{name:"NodeJs"},{name:"Stripe"},{name:"Redis"},{name:"MongoDB"}],
+    image:'/assets/work/thumb1.png',
     Live:'',
-    github:"https://github.com/HacktivistTD/Taprobana-Taxi.git",
+    github:"https://github.com/PethumSandaruwan/E-Commerce-Store.git",
     
    },
-   {num:'03',
-    category:'Laravel',
+   {num:'02',
+    category:'Fullstack',
     title:'project 1',
-    description:'E-commerce website',
-    stack:[{name:"Laravel"},{name:"mysql"},],
-    image:'/assets/work/thumb3.png',
+    description:'Guidely connects IT students with professionals for free project guidance',
+    stack:[{name:"NextJs"},{name:"MongoDB"},{name:"TypeScript(React)"},{name:"NodeJs"},],
+    image:'/assets/work/thumb2.png',
     Live:'',
     github:"",
+ 
+   },
+   {num:'03',
+    category:'Frentend Web',
+    title:'TastyTrails | Food Delivery Website',
+    description:'A user-friendly food delivery website designed for offering a seamless experience for customers to order food with ease. Explore, order, and enjoy our services effortlessly.',
+    stack:[{name:"ReactJs"},{name:"HTML5"},,{name:"CSS3"},{name:"JavaScriptt"}],
+    image:'/assets/work/thumb3.png',
+    Live:'',
+    github:"https://github.com/MenathNDGD/TastyTrails-FoodDelivery-ReactPHP.git",
     
    },
    {num:'04',
+    category:'Frontend Web ',
+    title:'project 1',
+    description:'Online food order website',
+    stack:[{name:"HTML"},{name:"CSS"},{name:" JavaScript"},],
+    image:'/assets/work/thumb4.png',
+    Live:'https://pethumsandaruwan.github.io/PureGem/',
+    github:"https://github.com/PethumSandaruwan/PureGem.git",
+    
+   },
+   {num:'05',
     category:'Fullstack ',
     title:'project 1',
     description:'Online food order website',
     stack:[{name:"React"},{name:"Mongodb"},{name:" Express"},{name:" Node JS"},{name:"Stripe"},],
-    image:'/assets/work/thumb3.png',
+    image:'/assets/work/thumb5.png',
     Live:'',
-    github:"https://github.com/HacktivistTD/Tasty.git",
+    github:"https://github.com/PethumSandaruwan/Creative-Maths-Management-System.git",
     
    },
 
@@ -83,6 +94,7 @@ const Work = () => {
                                         group-hover: text-accent transition-all duration-500 capitalize">
                                         {project.category} project
                          </h2>
+                         <h1 className="text-white/60 text-2xl">{project.title}</h1>
                             {/* project description */}
                                <p className="text-white/60">{project.description}</p>
                             {/* stack */}
