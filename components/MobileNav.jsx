@@ -23,7 +23,7 @@ const MobieNav = () => {
                 <div className="mt-32 mb-40 text-center text-2xl">
                     <Link href="/">
                        <h1 className="text-4xl font-semibold">
-                        Thushara
+                        Pethum
                         <span className="text-accent">.</span>
                        </h1>
                     </Link>

@@ -173,11 +173,11 @@ const Work = () => {
 
                                 {/* slider buttons */}
                                 <WorkSliderBtns
-                                            containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full 
-                                              justify-between xl:w-max xl:justify-none"
-                                              btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-
-                                              [44px] h-[44px] flex justify-center items-center transition-all"  
-                                          />
+  contoinerStyles="flex gap-2 absolute right-0 bottom-[calc(10%_-_22px)] z-20 w-full justify-between xl:w-max xl:justify-none "
+  btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all duration-300 rounded-full"
+  iconsStyles="text-white text-3xl" // Define icon styles if needed
+/>
+
                                 </Swiper>
                   </div>
               </div>
