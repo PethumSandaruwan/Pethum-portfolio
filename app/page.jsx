@@ -35,7 +35,7 @@ const Home = () => {
             </p>
             
             {/* Adjusted flex container */}
-            <div className="flex items-center gap-8 mb-8 xl:mb-0">
+            <div className="flex flex-col items-center gap-8 xl:flex-row">
 
             
               <Button
