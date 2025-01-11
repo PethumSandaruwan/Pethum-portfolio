@@ -13,11 +13,11 @@ const about = {
   Info: [
     { fieldName: "Name", fieldValue: "Pethum Sandaruwan" },
     { fieldName: "Phone", fieldValue: "(+94) 716060511" },
-    { fieldName: "Experience", fieldValue: "12yrs" },
+    { fieldName: "Experience", fieldValue: "2yrs" },
     { fieldName: "Whatsapp", fieldValue: "(+94) 716060511" },
     { fieldName: "Nationality", fieldValue: "Sri lankan" },
     { fieldName: "Email", fieldValue: "pethumsandaruwan007@gmail.com" },
-    { fieldName: "Freelance", fieldValue: "Available" },
+   // { fieldName: "Freelance", fieldValue: "Available" },
     { fieldName: "Languages", fieldValue: "English, Sinhala" },
   ],
 };
@@ -48,21 +48,13 @@ const expirience = {
         degree: "Trainee Intern",
         duration: "2021-2022",
       },
-      {
-        company: "Freelance",
-        degree: "Frontend Developer",
-        duration: "2024",
-      },
+      
       {
         company: "Crow.lk",
-        degree: "UI/UX Developer",
+        degree: "Assistent Technical Officer",
         duration: "2024",
       },
-      {
-        company: "Embrace Pvt. Ltd.",
-        degree: "UI/UX Developer",
-        duration: "2024",
-      },
+    
       
     ],
   };

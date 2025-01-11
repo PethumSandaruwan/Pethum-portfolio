@@ -10,22 +10,23 @@ const services=[
        'Building responsive, scalable, and dynamic websites that deliver seamless user experiences and optimize functionality across all devices.',
     href:"",
   },
-  {
+  /*{
     num:"02",
     title:'Web Applications',
     description:
        'I develop web applications that help businesses automate their processes and increase efficiency.',
     href:"",
   },
+  */
   {
-    num:"03",
+    num:"02",
     title:'UI/UX Design',
     description:
        'Crafting intuitive and user-friendly interfaces that prioritize satisfaction, usability, and a cohesive design experience.',
     href:"",
   },
   {
-    num:"04",
+    num:"03",
     title:'Logo Design',
     description:
        'Creating unique and visually appealing logos that capture the essence of a brand, ensuring lasting impressions.',

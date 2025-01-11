@@ -107,6 +107,7 @@ const Contact = () => {
                   placeholder="Firstname"
                   className="bg-[#1e1e24] text-white"
                   onChange={handleChange}
+                  required
                 />
                 <Input
                   type="text"
@@ -114,6 +115,7 @@ const Contact = () => {
                   placeholder="Lastname"
                   className="bg-[#1e1e24] text-white"
                   onChange={handleChange}
+                  required
                 />
                 <Input
                   type="email"
@@ -121,6 +123,7 @@ const Contact = () => {
                   placeholder="Email address"
                   className="bg-[#1e1e24] text-white"
                   onChange={handleChange}
+                  required
                 />
                 <Input
                   type="text"
@@ -128,6 +131,7 @@ const Contact = () => {
                   placeholder="Phone number"
                   className="bg-[#1e1e24] text-white"
                   onChange={handleChange}
+                  required
                 />
               </div>
 
